@@ -1,0 +1,118 @@
+body {
+  color: #333;
+}
+
+.hidden {
+  display: none;
+}
+
+.input {
+  display: inline-block;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  border: 1px solid #ced4da;
+  background-color: rgb(147, 238, 162);
+}
+/* 
+.contact-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  max-width: 500px;
+}
+
+.contact-list-item:first-child,
+.contact-list-item:last-child {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.contact-list-item {
+  position: relative;
+  display: block;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+}
+
+.contact-main {
+  display: flex;
+  align-items: center;
+}
+
+.contact-list-item-img {
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.contact-list-item-name,
+.contact-list-item-phone,
+.contact-list-item-action {
+  margin-right: 1rem;
+} */
+.invalid {
+  color: red;
+}
+.valid {
+  color: green;
+}
+.card_item {
+  width: 120px;
+  height: 100px;
+  opacity: 0.4;
+}
+.active{
+  opacity: 1;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+  
+}
+.visa {
+  background: url(../img/visa.png) no-repeat center;
+  background-size: cover;
+}
+.visa-electron {
+  background: url(../img/visa_electron_curved.png) no-repeat center;
+}
+.jcb {
+  background: url(../img/pepsized_jcb.png) no-repeat center;
+}
+.mastercard {
+  background: url(../img/mastercard_curved.png) no-repeat center;
+}
+.discover {
+  background: url(../img/discover_curved.png) no-repeat center;
+}
+.diners {
+  background: url(../img/diners_club.png) no-repeat center;
+  background-size: contain;
+}
+.amex {
+  background: url(../img/american_express_straight.png) no-repeat center;
+}
+.mir {
+  background: url(../img/1525410206_mir.jpg) no-repeat center;
+  background-size: contain;
+}
