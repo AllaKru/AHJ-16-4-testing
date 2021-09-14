@@ -68,12 +68,6 @@ body {
 .contact-list-item-action {
   margin-right: 1rem;
 } */
-.invalid {
-  color: red;
-}
-.valid {
-  color: green;
-}
 .card_item {
   width: 120px;
   height: 100px;

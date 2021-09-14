@@ -1,25 +1,21 @@
-export function isValidInn(value) {
-  // Just stub (your logic must be here)
-  // алгоритм Луна...(проверка остатка)
-    value = value.replace(/\D/g, '');
+/* eslint-disable */
+export function isValid(value) {
+  // алгоритм Луна
+  value = value.replace(/\D/g, "");
 
-    var nCheck = 0;
-    var bEven = false;
+  let nCheck = 0;
+  let bEven = false;
 
-    for (var n = value.length - 1; n >= 0; n--) {
-        var nDigit = parseInt(value.charAt(n), 10);
+  for (let n = value.length - 1; n >= 0; n -= 1) {
+    let nDigit = parseInt(value.charAt(n), 10);
 
-        if (bEven && (nDigit *= 2) > 9) {
-            nDigit -= 9;
-        }
-
-        nCheck += nDigit;
-        bEven = !bEven;
+    if (bEven && (nDigit *= 2) > 9) {
+      nDigit -= 9;
     }
-console.log(nCheck)
-    return (nCheck % 10) == 0;
 
-
-
-  // return value === '7715964180' ? true : false;
+    nCheck += nDigit;
+    bEven = !bEven;
+  }
+  // console.log(nCheck)
+  return nCheck % 10 === 0;
 }
