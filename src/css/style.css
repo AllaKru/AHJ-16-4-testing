@@ -1,5 +1,5 @@
 body {
-  color: #333;
+  color: rgb(10, 10, 10);
 }
 
 .hidden {
@@ -80,7 +80,7 @@ body {
 .cards {
   display: flex;
   justify-content: space-between;
-  width: 900px;
+  width:1100px;
   
 }
 .visa {
@@ -109,4 +109,13 @@ body {
 .mir {
   background: url(../img/1525410206_mir.jpg) no-repeat center;
   background-size: contain;
+}
+.maestro {
+  background: url(../img/png-transparent-maestro-computer-icons-payment-credit-card-credit-card-text-rectangle-payment.png) no-repeat center;
+  background-size: cover;
+}
+.insta{
+  border : 1px solid black;
+  text-align: center;
+  background-color: rgb(74, 74, 243);
 }

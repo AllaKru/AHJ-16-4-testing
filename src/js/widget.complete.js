@@ -18,6 +18,8 @@ export default class FormWidget {
     <div class="card_item diners"></div>
     <div class="card_item amex"></div>
     <div class="card_item mir"></div>
+    <div class="card_item maestro"></div>
+    <div class="card_item insta">InstaPayment</div>
     </div>
       <div class="form-control">
           <label for="card-input">Введите номер карты</label>
@@ -57,7 +59,7 @@ export default class FormWidget {
       setTimeout(() => {
         this.parentEl.querySelector('.warning').remove();
         inputEl.value = '';
-      }, 2000);
+      }, 500);
     }
   }
 }

@@ -20,10 +20,10 @@ test('should validate input', () => {
   widget.bindToDOM();
 
   const input = container.querySelector(FormWidget.inputSelector);
-  input.value = '3538350034265573';
+  input.value = '6371756415385975';
 
   const submit = container.querySelector(FormWidget.submitSelector);
   submit.click();
 
-  expect(document.querySelector('.jcb').classList.contains('active')).toBeTruthy();
+  expect(document.querySelector('.insta').classList.contains('active')).toBeTruthy();
 });
